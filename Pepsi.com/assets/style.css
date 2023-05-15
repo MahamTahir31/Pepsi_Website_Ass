@@ -1,0 +1,319 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'SemiBold 600', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+    color: white;
+}
+
+/* Navbar  */
+
+#navbar {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    font-family: 'SemiBold 600', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 900;
+    width: 100%;
+    height: 90px;
+
+    position: sticky;
+
+}
+
+#navbar::before {
+    content: "";
+    background-color: #0065c3;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+
+}
+
+.logo img {
+    height: 60px;
+    margin: 6px 21px;
+
+}
+
+.logo img:hover {
+    cursor: pointer;
+}
+
+#navbar ul {
+    display: flex;
+    margin-left: 28px;
+}
+
+#navbar ul li {
+    font-size: 0.8rem;
+    list-style: none;
+    height: 6em;
+    width: 11em;
+
+}
+
+#navbar ul li a {
+    display: block;
+    padding: 10px 5px;
+    margin: 20px 5px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+/* Buy Pepsi Button  */
+#buy-pepsi {
+    border: 2px solid white;
+    color: white;
+    padding: 4px 27px;
+    border-radius: 20px 20px;
+    position: absolute;
+    right: 5%;
+
+}
+
+.btn {
+
+    font-weight: 800;
+    color: white;
+    background-color: transparent;
+    border: none;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.btn:hover {
+
+    cursor: pointer;
+
+
+}
+
+/* Home Section */
+#home-section {
+    background-color: black;
+    width: 100%;
+    height: 550px;
+    display: flex;
+
+}
+
+#home-section img {
+    height: 477px;
+    width: 263px;
+    position: absolute;
+    top: 25%;
+    left: 15%;
+}
+
+#home-section .home-text {
+    position: absolute;
+    right: 10%;
+    top: 25%;
+    padding: 10px 0;
+    line-height: 0.9;
+    justify-content: center;
+    align-items: center;
+}
+
+#home-section .home-text #zero {
+    font-size: 10rem;
+    font-weight: 900;
+    font-family: Cervo Neue Black, Helvetica Neue, Helvetica, Arial, sans-serif;
+
+}
+
+#home-section .home-text #Nev-Tas {
+    font-size: 3.5rem;
+    font-weight: 900;
+    font-family: Cervo Neue Black, Helvetica Neue, Helvetica, Arial, sans-serif;
+
+}
+
+#home-section .home-text #So-Go {
+    font-size: 5.8rem;
+    font-weight: 900;
+    font-family: Cervo Neue Black, Helvetica Neue, Helvetica, Arial, sans-serif;
+
+}
+
+#home-section .Try-it {}
+
+#home-section .Try-it p {
+    position: absolute;
+    font-size: 1.6rem;
+    font-family: Cervo Neue Black, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: 900;
+    bottom: 18%;
+    left: 60%;
+}
+
+
+#home-section .Try-it img {
+
+    position: absolute;
+    top: 76%;
+    left: 80%;
+    height: 30px;
+    width: 30px;
+
+}
+
+/* Nitro Section  */
+#Nitro-section {
+    background-color: rgb(19, 69, 197);
+    width: 100%;
+    height: 590px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#Nitro-section img {
+    width: 434px;
+    height: 530px;
+    position: absolute;
+    top: 125%;
+    left: 16%;
+}
+
+#Nitro-section .Nitro-text {
+    position: absolute;
+    right: 18%;
+    top: 140%;
+    padding: 10px 0;
+    line-height: 0.9;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#Nitro-section .Nitro-text #Intro {
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: "Light 300";
+    letter-spacing: 5px;
+
+
+}
+
+#Nitro-section .Nitro-text #nitro {
+    font-size: 7rem;
+    font-weight: 900;
+    color: rgb(216, 128, 70);
+    font-family: Cervo Neue, Helvetica Neue, Helvetica, Arial, sans-serif;
+
+}
+
+#Nitro-section .Nitro-text #pepsi {
+
+    font-size: 4rem;
+    font-weight: 900;
+    font-family: 'SemiBold 600';
+
+}
+
+#Nitro-section .Nitro-text #taste {
+    font-size: 1.5rem;
+    font-weight: 900;
+    font-family: 'Regular 400';
+}
+
+#Nitro-section .Nitro-text #tm {
+    font-size: 0.9rem;
+    font-weight: 900;
+    font-family: 'Regular 400';
+    position: absolute;
+    right: 28%;
+    top: 67%;
+
+}
+
+#Nitro-section .Nitro-text .learn-btn {
+
+    border: none;
+    border: 2px solid white;
+    padding: 7px 25px;
+    font-weight: 800;
+    background: transparent;
+    border-radius: 20px 20px;
+    margin-top: 10px;
+}
+
+#Nitro-section .Nitro-text .learn-btn:hover {
+    cursor: pointer;
+}
+
+/* Food with pepsi section  */
+#Food-with-pepsi-section {
+    height: 700px;
+    width: 100%;
+    background-color: rgb(48, 98, 224);
+}
+
+#Food-with-pepsi-section .images {
+    display: flex;
+}
+
+#Food-with-pepsi-section .images .taging {
+
+    position: absolute;
+    top: 230%;
+    right: 5%;
+    height: 80%;
+    width: 60%;
+
+}
+
+#Food-with-pepsi-section .images .drinking {
+    position: absolute;
+    padding: 60px 0 0 40px;
+    height: 240px;
+    width: 370px;
+}
+
+#Food-with-pepsi-section .images .eating {
+    position: absolute;
+    top: 282%;
+    left: 3%;
+    height: 240px;
+    width: 375px;
+}
+
+#Food-with-pepsi-section .images .rib-text {
+    font-family: Cervo Neue, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 0.9rem;
+    font-weight: 700;
+    position: absolute;
+    top: 273%;
+    left: 3%;
+    width: 100%px;
+    background-color: #09307ad7;
+    padding: 10px 90px;
+    border: none;
+}
+
+#Food-with-pepsi-section .images .nachos-text {
+    font-family: Cervo Neue, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 0.9rem;
+    font-weight: 700;
+    position: absolute;
+    top: 325%;
+    left: 2.75%;
+    background-color: #09307ad7;
+    padding: 10px 80px;
+    border: none;
+}
+
+/* font-family: 'Gloock', serif;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Labrada', serif;
+font-family: 'Merriweather', serif;
+font-family: 'Mukta', sans-serif;
+font-family: 'Wix Madefor Display', sans-serif; */
