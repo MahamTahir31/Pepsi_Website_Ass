@@ -1,7 +1,4 @@
-- MAHAM TAHIR
-- Doing bachelor's at ubit, University of Karachi 
-- i think to code and code to explore :)
-
+<h3> Pepsi Website Clone</h3>
 
 <!---
 MahamTahir31/MahamTahir31 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
